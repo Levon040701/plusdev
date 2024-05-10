@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./all_posts.css">
+    <title>Latest IT Articles and Insights - PlusDev.NET Posts</title>
+</head>
+<body>
+    <header>
+        <div class="logo_wrapper">
+            <a href="https://www.plusdev.net/">
+                <span class="logo">
+                    <img src="./images/pulsdev.webp" alt="Logo">
+                    <h3>PlusDev<span>.NET</span></h3>
+                </span>
+            </a>
+        </div>
+        <form action="">
+            <div class="searchBar">
+                <button class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" placeholder="Search globally">
+            </div>
+        </form>
+        <nav>
+            <ul>
+                <li>
+                    <button><i class="fa-regular fa-square-plus"></i></button>
+                    <ul>
+                        <li><button><i class="fa-regular fa-newspaper"></i> Create a Post</button></li>
+                        <li><button><i class="fa-solid fa-question"></i> Ask a Question</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button><i class="fa-regular fa-sun"></i></button>
+                    <ul>
+                        <li><button><i class="fa-regular fa-sun"></i> Light</button></li>
+                        <li><button><i class="fa-regular fa-moon"></i> Dark</button></li>
+                        <li><button><i class="fa-solid fa-computer"></i> System</button></li>
+                    </ul>
+                </li>
+                <li>
+                    <button><i class="fa-regular fa-user"></i></button>
+                    <ul>
+                        <li><button><i class="fa-solid fa-arrow-right-to-bracket"></i> Log In</button></li>
+                        <li><button><i class="fa-regular fa-address-book"></i> Sign Up</button></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="left_sidebar" class="scrollbar">
+            <div class="pages">
+                <a href="" class="transitions"><i class="fa-solid fa-house"></i></i>Home</a>
+                <a class="active transitions" href=""><i class="fa-regular fa-newspaper"></i>Posts</a>
+                <a href="" class="transitions"><i class="fa-solid fa-file-circle-question"></i>Questions</a>
+                <a href="" class="transitions"><i class="fa-solid fa-user-group"></i>Community</a>
+                <a href="" class="transitions"><i class="fa-solid fa-tags"></i>Tags</a>
+            </div>
+            <button class="redBtn transitions">Log In</button>
+            <button class="blueBtn transitions">Sign Up</button>
+            <hr>
+            <div id="footer">
+                <div id="footerLinks">
+                    <a href="" class="transitions">About Us</a>
+                    <a href="" class="transitions">Advertise</a>
+                </div>
+                <br>
+                <div id="copyright">
+                    <p>&copy; 2024 <a href="" class="transitions">PlusDev.NET</a>. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="top">
+                <div id="title">
+                    <h1>All Posts</h1>
+                </div>
+                <div id="buttons">
+                    <button class="redBtn transitions">Create a Post</button>
+                </div>
+            </div>
+            <form action="">
+                <div class="searchBar">
+                    <button class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Search for posts">
+                </div>
+            </form>
+            <div class="tags filter">
+                <button class="active transitions">All</button>
+                <button class="transitions">Recommended</button>
+                <button class="transitions">Popular</button>
+                <button class="transitions">Most recent</button>
+                <button class="transitions">Oldest</button>
+            </div>
+            <div id="posts">
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_thumbnail"><img src="./images/bd1c1480201129be867adf88effb1458_nodejs-smart-contracts.webp" alt=""></div>
+                    <br>
+                    <h2 class="post_title"><a href="" class="transitions">Mastering Smart Contract Development with Node.js: Tools, Security, and Best...</a></h2>
+                    <br>
+                    <div class="tags">
+                        <button class="transitions">node js</button>
+                        <button class="transitions">WEB3</button>
+                        <button class="transitions">blockchain</button>
+                    </div>
+                    <br>
+                    <div class="post_info">
+                        <div class="post_author">
+                            <a href="https://www.plusdev.net/profile/voskan1989"><img src="./images/e005fc772e8484dd32c3cb9ca454749a_pulsdev.webp" alt=""></a>
+                            <a href="https://www.plusdev.net/profile/voskan1989" class="transitions">Voskan Voskanyan<span>created 7 days ago</span></a>
+                        </div>
+                        <div class="post_votes"><i class="fa-regular fa-heart"></i> 1 Votes</div>
+                        <div class="post_comments"><i class="fa-regular fa-comment"></i> 0 Comments</div>
+                        <div class="post_views"><i class="fa-regular fa-eye"></i> 68 Views</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <button class="disabled transitions"><i class="fa-solid fa-chevron-left"></i> Prev</button>
+                <span>1</span>
+                <button class="transitions">Next <i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div id="right_sidebar" class="scrollbar">
+            <div id="topPosts">
+                <h3>Top Posts</h3>
+                <br>
+                <div class="flexBox">
+                    <a href="https://www.plusdev.net/2024/00/11/mastering-concurrency-in-go-a-comprehensive-guide-to-goroutines-and-channels">
+                        <div class="thumbnail">
+                            <img width="50px" src="./images/6a20d2f5a72d1c9f703e4d38b793aba7_go-concurrency.webp" alt="">
+                        </div>
+                        <span class="transitions">Mastering Concurrency in Go: A Comprehensive Guide to Goroutines and Channels</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://www.plusdev.net/2023/11/15/graphql-integration-with-go">
+                        <div class="thumbnail">
+                            <img width="50px" src="./images/6a20d2f5a72d1c9f703e4d38" alt="Mastering GraphQL Integration with Go (Golang): A Comprehensive Guide">
+                        </div>
+                        <span class="transitions">Mastering GraphQL Integration with Go (Golang): A Comprehensive Guide</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://www.plusdev.net/2024/00/07/nodejs-vs-golang-an-in-depth-comparison-of-the-latest-versions-in-2024">
+                        <div class="thumbnail">
+                            <img height="50px" style="margin-left: -17px;" src="./images/ce245d2a058c1b9c2634cec233a780d8_golang-vs-nodejs.webp" alt="">
+                        </div>
+                        <span class="transitions">Node.js vs. Golang: An In-Depth Comparison of the Latest Versions in 2024</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://www.plusdev.net/2023/08/08/video-encoding-service-in-golang">
+                        <div class="thumbnail">
+                            <img width="50px" src="./images/6a20d2f5a72d1c9f70.webp" alt="Building a Video Encoding Service in Go (Golang): A Complete Walkthrough">
+                        </div>
+                        <span class="transitions">Building a Video Encoding Service in Go (Golang): A Complete Walkthrough</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://www.plusdev.net/2024/00/07/go-and-redis-implementing-high-performance-caching">
+                        <div class="thumbnail">
+                            <img height="50px" style="margin-left: -17px;" src="./images/6fac3e15f14bf14e8daae020c7fabeff_go-redis.webp" alt="">
+                        </div>
+                        <span class="transitions">Go and Redis: Implementing High-Performance Caching</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div id="topQuestions">
+                <h3>Top Questions</h3>
+                <br>
+                <div class="flexBox">
+                    <a href="https://www.plusdev.net/question/is-there-a-way-in-golang-to-define-a-generic-function-type-with-varargs-that-can-take-any-function-as-input">
+                        <span class="transitions">Is there a way in Golang to define a generic function type with varargs that can take any function as input?</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://www.plusdev.net/question/unable-to-download-generated-file-using-node-js-to-pc">
+                        <span class="transitions">Unable to download generated file using node js to pc</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://www.plusdev.net/question/how-get-access-the-unmodified-body-of-a-fastify-request">
+                        <span class="transitions">How get access the unmodified body of a Fastify request</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div id="popularTags">
+                <h3>Popular Tags</h3>
+                <div class="flexBox">
+                    <a href="https://www.plusdev.net/tags/nodejs">
+                        <div class="tags"><button class="transitions">node js</button></div>
+                        <span class="count">5</span>
+                    </a>
+                    <a href="https://www.plusdev.net/tags/golang">
+                        <div class="tags"><button class="transitions">go (golang)</button></div>
+                        <span class="count">19</span>
+                    </a>
+                    <a href="https://www.plusdev.net/tags/fastify">
+                        <div class="tags"><button class="transitions">fastify</button></div>
+                        <span class="count">1</span>
+                    </a>
+                    <a href="https://www.plusdev.net/tags/node-js-ru">
+                        <div class="tags"><button class="transitions">node js</button></div>
+                        <span class="count">40</span>
+                    </a>
+                    <a href="https://www.plusdev.net/tags/go">
+                        <div class="tags"><button class="transitions">go</button></div>
+                        <span class="count">6</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
